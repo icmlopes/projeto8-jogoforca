@@ -1,6 +1,6 @@
 import palavras from "./palavras"
 import React, { useState } from "react"
-import imagem0 from "./img/forca0.png"
+import forca0 from "./img/forca0.png"
 
 
 
@@ -12,9 +12,9 @@ function Alfabeto(props) {
         
 function Selecionar(props) {
     return (
-        console.log(props.index)
+        console.log(props)
     )
-}
+} 
 
 function Sortear() {
 
@@ -31,11 +31,10 @@ export default function App() {
             <div>
                 <div className="centro"> 
                     <div>
-                        <img src="imagem0" />
+                        <img src="forca0" />
                     </div>
                     <div>
                         <button>Sortear Palavra</button>
-                        <div className="traco">a</div>
                     </div>
                 </div>
                 <div className="baralho" >
